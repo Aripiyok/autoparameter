@@ -74,7 +74,7 @@ def join_keyboard():
     return InlineKeyboardMarkup([
         [
             InlineKeyboardButton(
-                "🔐 JOIN CHANNEL DULU",
+                "🔐 WELCOME APEM ANGET",
                 url="https://t.me/infoviralhariini"
             )
         ],
@@ -88,9 +88,9 @@ def join_keyboard():
 # ===========================
 async def show_join(update: Update):
     text = (
-        "🚫 *Akses Ditolak*\n\n"
+        "✨ *WELCOME MEK*\n\n"
         "Kamu *belum join channel wajib*.\n"
-        "Setelah join, klik tombol *Coba Lagi*."
+        "Setel join, pilih konten di daftar channel asupan*."
     )
 
     await update.effective_chat.send_message(
@@ -226,3 +226,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
