@@ -90,7 +90,7 @@ async def show_join(update: Update):
     text = (
         "✨ *WELCOME MEK*\n\n"
         "Kamu *belum join channel wajib*.\n"
-        "Setel join, pilih konten di daftar channel asupan*."
+        "Setelah join, *pilih konten di daftar channel asupan*."
     )
 
     await update.effective_chat.send_message(
@@ -226,4 +226,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
