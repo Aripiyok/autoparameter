@@ -89,7 +89,7 @@ def join_keyboard():
 async def show_join(update: Update):
     text = (
         "✨ *WELCOME MEK*\n\n"
-        "Kamu *belum join channel wajib*.\n"
+        "Klik *emot kunci di bawah untuk join*.\n"
         "Setelah join, *pilih konten di daftar channel asupan*."
     )
 
@@ -226,5 +226,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
